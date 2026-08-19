@@ -1,6 +1,6 @@
 # Smart Personal Finance Manager
 
-Smart Personal Finance Manager is a console-based personal finance application built with Python. It helps users manage income, expenses, budgets, reports, analytics, and CSV exports through a modular and professional architecture.
+Smart Personal Finance Manager is a Python-based desktop personal finance application designed to help users manage income, expenses, budgets, reports, analytics, and CSV exports through a modular and professional architecture.
 
 ## Features
 
@@ -24,7 +24,7 @@ Smart Personal Finance Manager is a console-based personal finance application b
 - analytics.py: Chart generation and analysis
 - export.py: CSV export functions
 - utils.py: Shared helpers and formatting
-- data/: JSON storage for users, income, expenses, and budgets
+- data/: JSON storage for application data, including users, income, expenses, budgets, reports, and settings
 - charts/: Generated chart images
 - exports/: Exported CSV files
 
@@ -53,10 +53,7 @@ The app opens a polished window with:
 - budget setup
 - CSV export buttons
 
-Use the demo account:
 
-- Username: demo
-- Password: Demo1234
 
 ## Sample Workflow
 
@@ -82,5 +79,5 @@ Potential test cases include:
 - Add password reset support
 - Add recurring transactions
 - Add multi-user role support
-- Introduce a web or desktop UI
+- Add advanced dashboard visualizations
 - Add category budgeting and forecasting
